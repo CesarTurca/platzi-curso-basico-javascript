@@ -13,17 +13,52 @@
         </h1>
         <p>Este es el primer taller del curso práctico de JavaScript</p>
     </header>
-    <section>
+    <section class="main-cuadrado-container">
         <h2>Calcula el área y perímetro de un cuadrado</h2>
         <form action="">
             <label for="InputCuadrado">
-                Escribe cuáto mide cada lado de tu cuadrado:
+                Escribe cuánto mide cada lado de tu cuadrado:
             </label>
             <input id="InputCuadrado" type="number">
             <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el perímetro</button>
             <button type="button" onclick="calcularAreaCuadrado()">Calcular el área</button>
         </form>
     </section>
+    <section class="main-triangulo-container">
+        <h2>Calcula el área y perimetro de un tríangulo</h2>
+        <form action="">
+            <label for="InputLado1-Triangulo">
+                Escribe cuánto mide el lado izquierdo del triangulo.
+            </label>
+            <input type="number" id="InputLado1-Triangulo">
+
+            <label for="InputLado2-Triangulo">
+                Escribe cuánto mide el lado derecho del triangulo.
+            </label>
+            <input type="number" id="InputLado2-Triangulo">
+
+            <label for="InputBase-Triangulo">
+                Escribe cuánto mide la base del triangulo.
+            </label>
+            <input type="number" id="InputBase-Triangulo">
+
+            <label for="InputAlto-Triangulo">
+                Escribe cuánto mide el alto del triangulo.
+            </label>
+            <input type="number" id="InputAlto-Triangulo">
+
+            <button type="button" onclick="calcularPerimetroTriangulo()">Calcular el perímetro</button>
+            <button type="button" onclick="calcularAreaTriangulo()">Calcular el área</button>
+
+        </form>
+    </section>
+    <section>
+        <h2>Calcula el área y perimetro de un circulo</h2>
+        <form action="">
+            <label for=""></label>
+        </form>
+    </section>
+
 
     <script src="/figuras.js"></script>
 </body>
